@@ -7,9 +7,9 @@ var recipes = { eggs: 3, flour: "2 cups", milk: "1 cup" };
 // }
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  console.log(Object.assign( {}, object, {[key]: value} )) 
+  return Object.assign( {}, object, {[key]: value} )
 
   // console.log(object)
 }
 
-updateObjectWithKeyAndValue(recipes, "water", "1 cup")
+// updateObjectWithKeyAndValue(recipes, "water", "1 cup")
