@@ -12,4 +12,4 @@ function updateObjectWithKeyAndValue(object, key, value) {
   console.log(object)
 }
 
-updateObjectWithKeyAndValue(recipes, "water", "1 cup")
+updateObjectWithKeyAndValue(recipes, water, "1 cup")
