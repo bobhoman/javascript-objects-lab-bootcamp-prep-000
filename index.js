@@ -11,3 +11,5 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
   return object
 }
+
+updateObjectWithKeyAndValue(recipes, "water", "1 cup")
